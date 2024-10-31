@@ -1,0 +1,45 @@
+каприсная
+[каприсная] A,f,nom,sg
+[каприсн]ые A,f,nom,pl
+[каприсн]ую A,f,acc,sg 
+[каприсн]ые A,f,acc,pl
+[каприсн]ой A,f,dat,sg
+[каприсн]ам A,f,dat,pl
+[каприсн]ой A,f,gen,sg
+[каприсн]ых A,f,gen,pl
+[каприсн]ой A,f,abl,sg
+[каприсн]ых A,f,abl,pl
+[каприсн]ой A,f,ins,sg
+[каприсн]ыми A,f,ins,pl
+
+хветить
+[хветить] V,inf,ipf,praes
+[хвечу] V,1p,ipf,sg,praes
+[хветишь] V,2p,ipf,sg,praes
+[хветит] V,3p,ipf,sg,praes
+[хветим] V,1p,ipf,pl,praes
+[хветите] V,2p,ipf,pl,praes
+[хветят] V,3p,ipf,pl,praes
+[хветил] V,ipf,sg,m,praet
+[хветила] V,ipf,sg,f,praet
+[хветили] V,ipf,pl,praet
+
+роднулька
+[роднулька] S,f,nom,sg
+[роднульк]и S,f,nom,pl
+[роднульк]у S,f,acc,sg
+[роднульк]и S,f,acc,pl
+[роднульк]е S,f,dat,sg
+[роднульк]ам S,f,dat,pl
+[роднульк]и S,f,gen,sg
+[роднулок] S,f,gen,pl
+[роднульк]е S,f,abl,sg
+[роднульк]ах S,f,abl,pl
+[роднульк]ой S,f,ins,sg
+[роднульк]ами S,f,ins,pl
+
+
+
+
+
+
