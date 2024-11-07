@@ -1,0 +1,96 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/peroha4/Colapinto/blob/main/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B5%20%D1%87%D0%B8%D1%81%D0%BB%D0%BE%20-%20%D0%BE%D1%82%202%20%D0%B4%D0%BE%20n\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 25,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9Z2i4RtzAPmg",
+        "outputId": "d1ba83ba-b03b-4495-995e-9024cd8dd116"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ответ\n",
+            "2\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "11\n",
+            "13\n",
+            "17\n",
+            "19\n",
+            "23\n",
+            "29\n",
+            "31\n",
+            "37\n",
+            "41\n",
+            "43\n",
+            "47\n",
+            "53\n",
+            "59\n",
+            "61\n",
+            "67\n",
+            "71\n",
+            "73\n",
+            "79\n",
+            "83\n",
+            "89\n",
+            "97\n"
+          ]
+        }
+      ],
+      "source": [
+        "def Primenumbers(n):\n",
+        "    prime = [True for x in range(n)]\n",
+        "    i = 2\n",
+        "    while (i * i <= n):\n",
+        "\n",
+        "        if (prime[i] == True):\n",
+        "\n",
+        "            for x in range(i * i, n, i):\n",
+        "                prime[x] = False\n",
+        "        i += 1\n",
+        "\n",
+        "    for i in range(2, n):\n",
+        "        if prime[i]:\n",
+        "            print(i)\n",
+        "\n",
+        "\n",
+        "if n == 100:\n",
+        "    print(\"Ответ\")\n",
+        "    Primenumbers(n)"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMnzjw8RCLFU4/05hu/rPgP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
